@@ -1,2 +1,0 @@
-Deployed website:
-Repository link: 
