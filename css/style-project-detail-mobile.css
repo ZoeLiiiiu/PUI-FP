@@ -1,0 +1,101 @@
+/*Responsive Design: for mobile device*/
+/* this file define the style of project gallery page*/
+@media only screen and (max-width: 599px) {
+
+/*define the width of main content to have margin around*/
+.main-content{
+  width: 100%;
+  margin: auto;
+  margin-left:10px;
+  margin-right: 10px;
+}
+
+/*define the top margin between basic information and the title*/
+.basic-information{
+  margin-top: 20px;
+}
+
+.basic-information p{
+    margin: 2px;
+    font-style: italic;
+}
+
+/*define the bottom margin between basic information and other part*/
+.basic-information{
+  margin-bottom: 50px;
+}
+
+/*define the image width and give it a round-corner*/
+.image img{
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+/*make sure all images are display in center*/
+.image{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*change the margin of the render image on the theather project page to make it looks like a group with the rest of the two renders*/
+#image-special-margin{
+  margin-bottom: 0px;
+}
+
+/*let the image flex display in column to fit in the mobile device better*/
+.image-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*hide the image that doesn't look good on a mobile device*/
+#walk-through{
+    display: none;
+}
+
+/*make sure the annotation that only shown on laptop device is hide*/
+.annotation{
+  display: none;
+}
+
+/*define the style of annotation*/
+.annotation-mobile, .annotation-on-both{
+  display: block;
+  text-align: center;
+  margin: 5px;
+  font-style: italic;
+}
+
+.annotation-on-both p{
+  margin: 2px;
+}
+
+/*make sure all the images have a width of 100%*/
+.landscape-images-left{
+  width: 100%;
+}
+
+.landscape-images-right{
+  width: 100%;
+}
+
+.description{
+  margin-bottom: 30px;
+
+}
+
+/*make sure the image that shown by itself in a column is in the center*/
+.big-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+}
