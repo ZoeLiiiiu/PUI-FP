@@ -125,6 +125,12 @@
     /*the style of title*/
 
     /*apply to titles on project detail and about-me page*/
+
+    h1{
+        font-size: 28px;
+        font-weight: 500;
+    }
+
     .title{
         width:60%;
         font-size: 28px;
