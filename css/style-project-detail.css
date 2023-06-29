@@ -1,6 +1,6 @@
 /*Responsive Design: for tablets*/
 /* this file define the style of project gallery page*/
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 415px) and (min-height: 710px) {
 
 /*define the width of main content to have margin around*/
 .main-content{

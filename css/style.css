@@ -1,6 +1,6 @@
 /*Responsive Design: for tablets*/
 /*set up the style of projects gallery page and profile page*/
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 415px) {
 
     /* set up default elements for all webpage */
 
@@ -72,8 +72,6 @@
         margin: 30px 50px 30px 50px;
     }
 
-
-
     /* setup the contact information*/
 
     .contact-information{
@@ -81,11 +79,26 @@
         padding: 20px 20px 50px 20px;
         padding-left: 5%;
         margin-top: 30px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
     }
-    
+
+    .contact-information-bottom{
+        background-color: lightgray;
+        padding: 20px 20px 40px 20px;
+        padding-left: 5%;
+        margin-top: 30px;
+        bottom: 0px;
+        position: absolute;
+        right:0px;
+        left: 0px;
+    }
+
     /*apply to the pages where on labtop the user need to scroll down to see the whole page, but on mobile device the users do not*/
     #contact-information-bottom-exception{
-        position: relative;
+            position: relative;
     }
 
     /*apply to the page that the user do not need to scroll, make sure the contact information is at the bottom of the page*/

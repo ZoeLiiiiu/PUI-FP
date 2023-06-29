@@ -1,13 +1,13 @@
 /*Responsive Design: for mobile device*/
 /* this file define the style of project gallery page*/
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 414px) {
 
 /*define the width of main content to have margin around*/
 .main-content{
-  width: 100%;
+  width: calc(100% - 10px - 10px);
   margin: auto;
   margin-left:10px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 /*define the top margin between basic information and the title*/
