@@ -123,7 +123,10 @@
         font-weight: 600
     }
 
-
+    h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
 
     /*the style of title*/
 
