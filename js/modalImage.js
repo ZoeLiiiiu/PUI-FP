@@ -1,3 +1,4 @@
+
 // create references to the modal...
 var modal = document.getElementById('myModal');
 // to all images
