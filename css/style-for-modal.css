@@ -25,18 +25,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
   width: auto;
 }
 
-.modal-content-for-portrait:hover{
-  cursor: auto;
-}
-
 .modal-content-for-landscape{
     margin: auto;
     display: block;
     width: 80%;
-}
-
-.modal-content-for-landscape:hover{
-  cursor: auto;
 }
 
 /* Caption of Modal Image */

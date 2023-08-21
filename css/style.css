@@ -1,6 +1,6 @@
 /*Responsive Design: for tablets*/
 /*set up the style of projects gallery page and profile page*/
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 415px) and (min-height: 710px){
 
     /* set up default elements for all webpage */
 
@@ -91,7 +91,7 @@
         padding-left: 5%;
         margin-top: 30px;
         bottom: 0px;
-        /*position: absolute;*/
+        position: absolute;
         right:0px;
         left: 0px;
     }
