@@ -150,8 +150,8 @@
         /*control the spacing between title and navigator*/
         margin-top: 10px;
         /* make sure the title line-up with the content*/
-        /*margin-left: calc(20% - 140px);*/
-        margin-left: -140px;
+        margin-left: calc(20% - 140px);
+        /*margin-left: -140px;*/
         margin-bottom: 10px;
         padding-left: 0px;
         border-left: 0px;

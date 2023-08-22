@@ -3,8 +3,7 @@
   <head>
     <title>Sledding Hill Culinary Center</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--define the style of the zoom in function-->
-    <link rel="stylesheet" href="./dist/css/swiper.min.css">
+
     <!--css-->
     <link rel ="stylesheet" href = "css/style.css">
     <!--responsive design: style for long mobile device-->
@@ -14,7 +13,7 @@
     <link rel = "stylesheet" href="css/style-project-detail.css">
     <link rel = "stylesheet" href="css/style-project-detail-mobile.css">
     <!--the style for image zoom-in function-->
-    <link rel = "stylesheet" href="css/style-for-modalImage.css">
+    <link rel = "stylesheet" href="css/style-for-modal.css">
     <!-- style of the animation text from textillate-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!--icon libraries-->
@@ -33,7 +32,6 @@
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"></script>
     <!--define the animation-->  
     <script src = "js/animation.js"></script>
-    <!--define the behavior of the zoom in function-->
 
   </head>
   
@@ -58,9 +56,9 @@
         </nav>
       </div>
       <div class = "title">
-        <h1>
+        <p>
           Sledding Hill Culinary Center
-        </h1>
+        </p>
       </div>
     </div>
 
@@ -98,42 +96,18 @@
           
           <!-- The Modal -->
           <div id="myModal" class="modal">
-            <!-- 轮播图88888  tyle="display:none" -->
-            <div class="swiper-container" >
-              <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img class="swiper-big-img" src="asset/culinary-center/experiential-drawing.png" alt="">
-                  </div>
-                  <div class="swiper-slide">
-                    <img class="swiper-big-img" src="asset/culinary-center/walk-through.png" alt="">
-                  </div>
-                  <div class="swiper-slide">
-                    <img class="swiper-big-img" src="asset/culinary-center/plan-level-1.png" alt="">
-                  </div>
-                  <div class="swiper-slide">
-                    <img class="swiper-big-img" src="asset/culinary-center/plan-level-2.png" alt="">
-                  </div>
-                  <div class="swiper-slide">
-                    <img class="swiper-big-img" src="asset/culinary-center/axon-1.png" alt="">
-                  </div>
-                  <div class="swiper-slide">
-                    <img class="swiper-big-img" src="asset/culinary-center/axon-2.png" alt="">
-                  </div>
-                  <div class="swiper-slide">
-                    <img class="swiper-big-img" src="asset/culinary-center/conceptual-diagam-01.png" alt="">
-                  </div>
-                  
-              </div>
-              <!-- Add Pagination -->
-              <div class="swiper-pagination"></div>
-              <!-- Add Arrows -->
-              <div class="bottom-text"></div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-          </div>
 
-            <!-- The Close Button -->
-            <span class="close" id="close1">&times;</span>
+          <!-- The Close Button -->
+          <span class="close" id = "close1">&times;</span>
+
+          <!-- Modal Content (The Image) -->
+          <!-- create two for two different styles-->
+          <img class="modal-content-for-portrait" id="img01" alt="first modal image">
+
+
+          <!-- Modal Caption (Image Text) -->
+          <div id="caption" class = "caption"></div>
+          </div>
 
         </div>
 
